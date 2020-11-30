@@ -17,9 +17,7 @@ class Events(Enum):
 
     @staticmethod
     def get_by_name(name):
-        for enum_name, item in Events.__members__.items():
-            if enum_name == name.upper():
-                return item
+        return Events[name.upper()]
 
 
 class Pokemon:
