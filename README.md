@@ -13,9 +13,14 @@ Teremos palestrantes de São Paulo, Portugal, Espanha e Piracicaba, trazendo seu
 
 ## Projetos
 
-- [pokecatcher-python](./pokecatcher-python)
-- [pokecatcher-spring-statemachine](./pokecatcher-spring-statemachine)
-- [fsm-delivery-spring-statemachine](./fsm-delivery-spring-statemachine)
+### Pokemon Catcher - Python
+Solução interativa em Python de uma máquina de estados implementada na mão, sem utilização de Frameworks de um game de captura de pokemons. [Repo: pokecatcher-python](./pokecatcher-python)
+
+### Pokemon Catcher - Java
+Solução interativa em Java utilizando o Framework Spring StateMachine para o controle de estados de um game de captura de pokemons. [Repo: ./pokecatcher-spring-statemachine](./pokecatcher-spring-statemachine)
+
+### FSM Delivery - Java
+Solução em Java utilizando o Framework Spring StateMachine de uma aplicação de controle de status de um delivery utilizando mensageria para leitura dos eventos e acionamento da máquina de estados[Repo: fsm-delivery-spring-statemachine](./fsm-delivery-spring-statemachine)
 
 # Desenvolvedor
 
