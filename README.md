@@ -48,6 +48,7 @@ Solução em Java utilizando o Framework Spring StateMachine de uma aplicação 
 ## Links
 
 - [Apresentação em slides - DevPira 2020](https://docs.google.com/presentation/d/1sFcJffwwWrUx4zeb1DB9MdSoWUu8AJZb6cb2ayJ53k8/edit?usp=sharing)
+- [Apresentação YouTube](https://www.youtube.com/watch?v=pZa2ruzaRKc)
 - [Artigo - Controlando transações de status com finite state machine](https://medium.com/@guilherme.zarelli/controlando-transações-de-status-com-finite-state-machine-7f47b906174a)
 
 # Desenvolvedor
