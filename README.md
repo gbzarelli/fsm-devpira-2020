@@ -13,8 +13,8 @@ Teremos palestrantes de São Paulo, Portugal, Espanha e Piracicaba, trazendo seu
 
 ## Projetos
 
-- [pokemoncatcher-python](./pokemoncatcher-python)
-- [pokemoncatcher-spring-statemachine](./pokemoncatcher-spring-statemachine)
+- [pokecatcher-python](./pokecatcher-python)
+- [pokecatcher-spring-statemachine](./pokecatcher-spring-statemachine)
 - [fsm-delivery-spring-statemachine](./fsm-delivery-spring-statemachine)
 
 # Desenvolvedor
