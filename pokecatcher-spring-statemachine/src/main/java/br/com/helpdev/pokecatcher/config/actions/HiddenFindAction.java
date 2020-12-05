@@ -1,15 +1,19 @@
-package br.com.helpdev.pokecatcher.domain.action;
+package br.com.helpdev.pokecatcher.config.actions;
 
 import java.security.SecureRandom;
 
-import br.com.helpdev.pokecatcher.domain.PokeEventMessage;
 import br.com.helpdev.pokecatcher.domain.PokeEvent;
+import br.com.helpdev.pokecatcher.domain.PokeEventMessage;
 import br.com.helpdev.pokecatcher.domain.PokeState;
 import br.com.helpdev.pokecatcher.domain.exception.PokemonNotFoundException;
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.action.Action;
+import org.springframework.stereotype.Component;
 
-public class FindHiddenAction implements Action<PokeState, PokeEvent> {
+@Component
+public class HiddenFindAction implements Action<PokeState, PokeEvent> {
+
+  private static final SecureRandom SECURE_RANDOM = new SecureRandom();
 
   @Override
   public void execute(final StateContext<PokeState, PokeEvent> context) {
@@ -17,7 +21,7 @@ public class FindHiddenAction implements Action<PokeState, PokeEvent> {
     final var pokemon = pokeMessage.getPokemon();
     System.out.printf("Trying to find %s...%n", pokemon.getName());
 
-    final var rand = new SecureRandom().nextInt(pokemon.getLevel());
+    final var rand = SECURE_RANDOM.nextInt(pokemon.getLevel());
     if (rand > 2)
       throw new PokemonNotFoundException("Uh oh! Pokemon 404!");
 

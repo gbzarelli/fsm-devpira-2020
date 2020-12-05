@@ -13,9 +13,15 @@ repositories {
 }
 
 dependencies {
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.statemachine:spring-statemachine-core:2.2.0.RELEASE'
+    compileOnly 'org.projectlombok:lombok:1.18.16'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }

@@ -1,34 +1,26 @@
 package br.com.helpdev.pokecatcher.domain;
 
-import java.util.Objects;
-
+import lombok.EqualsAndHashCode;
 import org.springframework.messaging.support.GenericMessage;
 
+@EqualsAndHashCode(callSuper = true)
 public class PokeEventMessage extends GenericMessage<PokeEvent> {
 
   private final Pokemon pokemon;
+  private final String[] commands;
 
-  public PokeEventMessage(final Pokemon pokemon, final PokeEvent pokeEvent) {
+  public PokeEventMessage(final Pokemon pokemon, final PokeEvent pokeEvent, final String[] commands) {
     super(pokeEvent);
     this.pokemon = pokemon;
+    this.commands = commands;
+  }
+
+  public Integer getPowerAttack() {
+    return Integer.valueOf(commands.length > 2 ? commands[2] : "0");
   }
 
   public Pokemon getPokemon() {
     return pokemon;
   }
 
-  @Override
-  public boolean equals(Object o) {
-    if (this == o) return true;
-    if (o == null || getClass() != o.getClass()) return false;
-    if (!super.equals(o)) return false;
-    return Objects.equals(pokemon, ((PokeEventMessage) o).pokemon);
-  }
-
-  @Override
-  public int hashCode() {
-    int result = super.hashCode();
-    result = 31 * result + (pokemon != null ? pokemon.hashCode() : 0);
-    return result;
-  }
 }

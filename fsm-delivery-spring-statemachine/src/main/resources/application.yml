@@ -1,0 +1,7 @@
+spring:
+  rabbitmq:
+    virtual-host: fsm
+    username: user
+    password: pass
+  jpa:
+    show-sql: true
