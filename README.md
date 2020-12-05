@@ -1,7 +1,7 @@
 # Finite State Machine
 
 <p align="center">
-    <img src="./images/banner.jpeg" height="350">
+    <img src="./images/logo-event.png" height="150">
 </p>
 
 Respositório referente a apresentação "Controlando transações de status com Finite State Machine" realizada no dia 05 de Dezembro de 2020 no evento "DevPira 2020" na trilha de BackEnd. 
