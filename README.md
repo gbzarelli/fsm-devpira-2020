@@ -16,27 +16,39 @@ Teremos palestrantes de São Paulo, Portugal, Espanha e Piracicaba, trazendo seu
 ## Projetos
 
 ### Pokemon Catcher - Python
+
 <p align="center">
-    <img src="./images/diagram-1.png" height="150">
+    <img src="./images/diagram-1.png" height="200">
 </p>
-Solução interativa em Python de uma máquina de estados implementada na mão, sem utilização de Frameworks de um game de captura de pokemons. [Repo: pokecatcher-python](./pokecatcher-python)
+
+Solução interativa em Python de uma máquina de estados implementada na mão, sem utilização de Frameworks de um game de captura de pokemons. 
+
+[Repo: pokecatcher-python](./pokecatcher-python)
 
 ### Pokemon Catcher - Java
+
 <p align="center">
-    <img src="./images/diagram-2.png" height="150">
+    <img src="./images/diagram-2.png" height="200">
 </p>
-Solução interativa em Java utilizando o Framework Spring StateMachine para o controle de estados de um game de captura de pokemons. [Repo: ./pokecatcher-spring-statemachine](./pokecatcher-spring-statemachine)
+
+Solução interativa em Java utilizando o Framework Spring StateMachine para o controle de estados de um game de captura de pokemons. 
+
+[Repo: ./pokecatcher-spring-statemachine](./pokecatcher-spring-statemachine)
 
 ### FSM Delivery - Java
+
 <p align="center">
-    <img src="./images/diagram-3.png" height="150">
+    <img src="./images/diagram-3.png" height="200">
 </p>
-Solução em Java utilizando o Framework Spring StateMachine de uma aplicação de controle de status de um delivery utilizando banco e mensageria para leitura dos eventos e acionamento da máquina de estados. [Repo: fsm-delivery-spring-statemachine](./fsm-delivery-spring-statemachine)
+
+Solução em Java utilizando o Framework Spring StateMachine de uma aplicação de controle de status de um delivery utilizando banco e mensageria para leitura dos eventos e acionamento da máquina de estados. 
+
+[Repo: fsm-delivery-spring-statemachine](./fsm-delivery-spring-statemachine)
 
 ## Links
 
-- Apresentação em slides - https://docs.google.com/presentation/d/1sFcJffwwWrUx4zeb1DB9MdSoWUu8AJZb6cb2ayJ53k8/edit?usp=sharing
-- Artigo - https://medium.com/@guilherme.zarelli/controlando-transações-de-status-com-finite-state-machine-7f47b906174a
+- [Apresentação em slides - DevPira 2020](https://docs.google.com/presentation/d/1sFcJffwwWrUx4zeb1DB9MdSoWUu8AJZb6cb2ayJ53k8/edit?usp=sharing)
+- [Artigo - Controlando transações de status com finite state machine](https://medium.com/@guilherme.zarelli/controlando-transações-de-status-com-finite-state-machine-7f47b906174a)
 
 # Desenvolvedor
 
@@ -44,4 +56,5 @@ Solução em Java utilizando o Framework Spring StateMachine de uma aplicação 
 - Blog/Site - https://helpdev.com.br
 - LinkedIn - https://linkedin.com/in/gbzarelli/
 - GitHub - https://github.com/gbzarelli
+- Medium - https://medium.com/@guilherme.zarelli
 - Email - gbzarelli@helpdev.com.br
